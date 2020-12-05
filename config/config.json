@@ -1,0 +1,37 @@
+
+var config = {
+	"viral": false,
+	"contentLocker": false,
+	"reviews": [
+		{
+			"name": "Jonathan",
+			"rating": 5,
+			"country": "UK",
+			"msg": "Before letting you know what I think, I must admit that I was quite sceptic about this actually working. I had tried other similar generators before and none of them had worked for me. I was referred to this site by a friend of mine, and I couldn't have been happier about actually trying it out. It was all pretty easy and went quite quickly and I recieved my five million coins. Thank you so much!"
+		},
+		{
+			"name": "Joey",
+			"rating": 3.4,
+			"country": "USA",
+			"msg": "I had never trusted any of these kind of websites before. Although I had always heard that these were scams, I decided to give it a try as my friend put in a good word for it. Sure enough, it was legit, or at least it wasn't a scam. I did ask for two million coins, but I only recieved 500k. I have no idea why this happened, maybe I had some problems with my computer since everyone else seems to have gotten what they wanted. If I would have gotten what I really wanted, I would have given it five stars. Thanks anyways.."
+		},
+		{
+			"name": "Stephen",
+			"rating": 4.4,
+			"country": "UK",
+			"msg": "I can't believe I ACTUALLY got what I wanted. The only thing that bothered me and made me into not giving it five stars is that it actually took quite some time to get the coins. But I guess looking back at it was totally worth it. Still, it would have been a lot better if it went a bit quicker.."
+		},
+		{
+			"name": "Volker",
+			"rating": 5,
+			"country": "DE",
+			"msg": "Thank you very much for this!! I tried other Website but no one works, until i found this Site. A friend said it to me about this Site, i wanted 5 million coins and i have it after 10 minutes. Thank you once again! 5 stars! :D "
+		},
+		{
+			"name": "Ralph",
+			"rating": 4,
+			"country": "UK",
+			"msg": "Thanks a lot for this, I didn't it was this easy to get a great team in FUT. :P Well, I didn't have experience with these types of websites before I used this one, but I have heard that there are quite a few ones that won't actually give you any coins. Anyway, this one is obviously not one of those sites. It worked flawlessly and I got my three million quickly after I had done everything. Thanks loads! :DD"
+		}
+	]
+}

